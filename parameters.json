@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_azc_17l_e2_app_name": {
+            "value": null
+        },
+        "serverfarms_AZC_17L_E2_ASP_name": {
+            "value": null
+        },
+        "sites_azc_17l_e2_frontendapp_name": {
+            "value": null
+        },
+        "serverfarms_AZC_17L_E2_FRONTENDASP_name": {
+            "value": null
+        },
+        "virtualNetworks_AZC_17L_E2_VNET_name": {
+            "value": null
+        }
+    }
+}
