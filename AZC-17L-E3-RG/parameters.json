@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_azc_17l_e3_app_name": {
+            "value": null
+        },
+        "serverfarms_AZC_17L_E3_ASP_name": {
+            "value": null
+        },
+        "storageAccounts_azc17le3sa_name": {
+            "value": null
+        },
+        "virtualNetworks_AZC_17L_E3_VNet_name": {
+            "value": null
+        },
+        "networkSecurityGroups_AZC_17L_E3_VNet_IntegrationSubnet_nsg_southcentralus_name": {
+            "value": null
+        }
+    }
+}
