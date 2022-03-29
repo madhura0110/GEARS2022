@@ -439,22 +439,6 @@
             }
         },
         {
-            "type": "Microsoft.Web/sites/snapshots",
-            "apiVersion": "2015-08-01",
-            "name": "[concat(parameters('sites_azc_17l_e2_app_name'), '/2022-02-06T05_46_31_4200236')]",
-            "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_azc_17l_e2_app_name'))]"
-            ]
-        },
-        {
-            "type": "Microsoft.Web/sites/snapshots",
-            "apiVersion": "2015-08-01",
-            "name": "[concat(parameters('sites_azc_17l_e2_frontendapp_name'), '/2022-02-06T05_46_31_4200236')]",
-            "dependsOn": [
-                "[resourceId('Microsoft.Web/sites', parameters('sites_azc_17l_e2_frontendapp_name'))]"
-            ]
-        },
-        {
             "type": "Microsoft.Web/sites",
             "apiVersion": "2021-02-01",
             "name": "[parameters('sites_azc_17l_e2_frontendapp_name')]",
